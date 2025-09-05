@@ -19,7 +19,7 @@ A modern Next.js app for managing bounty programs and assets.
 
 ### Live Link
 
-[https://bounty-site-frontend.vercel.app]([https://bounty-site-frontend.vercel.app)
+[https://bounty-site-frontend.vercel.app](https://bounty-site-frontend.vercel.app)
 
 ### Local Development
 ```bash
