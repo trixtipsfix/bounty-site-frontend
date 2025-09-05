@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile   # or whatever you named it
+    container_name: nextjs-app
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=development
+      - PORT=80
+    volumes:
+      - .:/app            # mount source code for live reload
+      - /app/node_modules # avoid overwriting node_modules
+    restart: unless-stopped
